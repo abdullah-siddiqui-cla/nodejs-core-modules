@@ -15,6 +15,11 @@ This CLI application allows users to generate secure passwords, save them in a f
     - This method takes two arguments: a password to encrypt and a key.
     - Uses `encrypt` function from a utility file (`lib.js`) to encrypt the password. `encrypt` method takes `key` as a second argument. In encryption, a `key` is secret string that encrypts or decrypts the data. You can create a global function, `masterKey` for that purpose.
 
+## Task 2.5: Create the `decryptPassword` Method
+- Define a method named `decryptPassword`.
+    - This method takes two arguments: a password to encrypt and a key.
+    - Uses `descrypt` function from a utility file (`lib.js`) to descrypt the password. `descrypt` method takes `key` as a second argument.
+
 ## Task 3: Create the `readPasswords` Method
 - Define a method named readPasswords.
   - This method reads the contents of a JSON file (`passwords.json`) where passwords are stored. If the file doesn't exist, return an empty object.
